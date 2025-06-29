@@ -1,0 +1,53 @@
+1 -----> 2
+nb player: 1
+1 linemate
+
+2 -----> 3
+nb player: 2
+1 linemate
+1 deraumere
+1 sibur
+
+3 -----> 4
+nb player: 2
+2 linemate
+1 sibur
+2 phiras
+
+4 -----> 5
+nb player: 4
+1 linemate
+1 deraumere
+2 sibur
+1 phiras
+
+5 -----> 6
+nb player: 4
+1 linemate
+2 deraumere
+1 sibur
+3 mendiane
+
+6 -----> 7
+nb player: 6
+1 linemate
+2 deraumere
+3 sibur
+1 phiras
+
+7 -----> 8
+2 linemate
+2 deraumere
+2 sibur
+2 mendiane
+2 phiras
+1 thystame
+
+
+2 -----> 8
+8 linemate
+8 deraumere
+10 sibur
+5 mendiane
+6 phiras
+1 thystame

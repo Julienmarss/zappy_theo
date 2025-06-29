@@ -1,0 +1,31 @@
+name: Compile Programs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up the environment
+        run: sudo apt-get update
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y build-essential
+          sudo apt-get install -y uuid-dev
+          sudo apt-get install -y git
+
+      - name: Compile the programs
+        run: | 
+          cd server/
+          make

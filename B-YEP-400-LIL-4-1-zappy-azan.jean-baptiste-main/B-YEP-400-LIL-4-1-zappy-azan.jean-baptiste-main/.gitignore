@@ -1,0 +1,9 @@
+*.o
+coding-style-reports.log
+zappy_ai
+zappy_gui
+zappy_server
+IA/zappy_ai
+GUI/zappy_gui
+server/zappy_server
+IA/__pycache__

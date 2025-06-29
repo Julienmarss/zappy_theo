@@ -1,0 +1,7 @@
+#define FOOD_COLOR        RED
+#define LINEMATE_COLOR    BLUE
+#define DERAUMERE_COLOR   GREEN
+#define SIBUR_COLOR       YELLOW
+#define MENDIANE_COLOR    ORANGE
+#define PHIRAS_COLOR      PURPLE
+#define THYSTAME_COLOR    MAGENTA
